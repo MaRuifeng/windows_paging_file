@@ -2,13 +2,15 @@ windows_paging_file Cookbook
 ============================
 
 This cookbook provides Chef recipes that manage the virtual memory (paging file) of the Windows OS. 
-TODO: add supported Windows OS versions
+
+Tested Windows server version: 2008, 2012
+
 Windows paging file size management rules: 
-	1. Automatically managed for all drives
-	2. If not, the user has the authority with below setting options for each drive
-	    a. Set custom size (Initial and Maximum in MegaBytes)
-	    b. System managed
-	    c. No paging file
+* Automatically managed for all drives
+* If not, the user has the authority with below setting options for each drive
+  * Set custom size (Initial and Maximum in MegaBytes)
+  * System managed
+  * No paging file
 
 Requirements
 ------------
