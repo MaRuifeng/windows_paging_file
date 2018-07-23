@@ -10,14 +10,10 @@ Windows paging file size management rules:
 	    b. System managed
 	    c. No paging file
 
-Owners
-------
-Author: ruifengm@sg.ibm.com
-Organization: IBM
-
 Requirements
 ------------
 Managed Node: Windows OS
+
 Cookbook Dependency: windows (https://github.com/chef-cookbooks/windows)
 
 Attributes
@@ -56,6 +52,10 @@ Include `windows_paging_file` in your node's `run_list`:
   ]
 }
 ```
+
+Owners
+------
+Author: mrfflyer@gmail.com
 
 Contributing
 ------------
